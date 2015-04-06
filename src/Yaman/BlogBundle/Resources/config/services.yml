@@ -1,0 +1,9 @@
+services:
+#    yaman_blog.example:
+#        class: Yaman\BlogBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]
+
+    yaman_blog.form.type.post:
+        class: Yaman\BlogBundle\Form\Type\PostType
+        tags:
+            - { name: form.type, alias: post }

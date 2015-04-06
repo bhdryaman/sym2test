@@ -1,0 +1,8 @@
+yaman_blog:
+    resource: "@YamanBlogBundle/Controller/"
+    type:     annotation
+    prefix:   /yaman
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
